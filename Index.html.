@@ -35,17 +35,4 @@
     <div id="nao" class="opcao nao">Não</div>
 
     <script>
-        var opcaoNao = document.getElementById('nao');
-
-        opcaoNao.addEventListener('click', function() {
-            // Muda a posição do botão Não aleatoriamente
-            var width = window.innerWidth - 150; // Largura máxima da janela
-            var height = window.innerHeight - 150; // Altura máxima da janela
-            var newX = Math.floor(Math.random() * width); // Nova posição X
-            var newY = Math.floor(Math.random() * height); // Nova posição Y
-            opcaoNao.style.left = newX + 'px';
-            opcaoNao.style.top = newY + 'px';
-        });
-    </script>
-</body>
-</html>
+        var opcaoNao = document.getElementById('
